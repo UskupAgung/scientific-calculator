@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana - UAS T&I</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="history-panel">
+        <div class="history-header">
+            <span class="history-icon">⟳</span> Riwayat Perhitungan
+        </div>
+        <div class="calculator-history">
+            <div style="padding: 10px; color: #888;">Belum ada riwayat.</div>
+        </div>
+    </div>
+
+    <div class="calculator">
+        <input type="text" class="calculator-screen" value="" disabled />
+
+       <div class="calculator-keys">
+
+    <button type="button" class="all-clear" value="all-clear">AC</button> 
+    <button type="button" class="operator" value="backspace">⌫</button>  
+    <button type="button" class="operator" value="%">%</button>   
+    <button type="button" class="operator" value="/">÷</button>
+        <button type="button" class="scientific special-row" value="Deg">Deg</button>
+        <button type="button" class="scientific special-row" value="Rad">Rad</button>
+        <button type="button" class="scientific special-row" value="x!">x!</button>
+
+    <button type="button" value="7">7</button>
+    <button type="button" value="8">8</button>
+    <button type="button" value="9">9</button>
+    <button type="button" class="operator" value="*">&times;</button>
+        <button type="button" class="scientific" value="Inv">Inv</button>
+        <button type="button" class="scientific" value="sin">sin</button>
+        <button type="button" class="scientific" value="ln">ln</button>
+
+    <button type="button" value="4">4</button>
+    <button type="button" value="5">5</button>
+    <button type="button" value="6">6</button>
+    <button type="button" class="operator" value="-">-</button>
+        <button type="button" class="scientific" value="pi">π</button>
+        <button type="button" class="scientific" value="cos">cos</button>
+        <button type="button" class="scientific" value="log">log</button>
+
+    <button type="button" value="1">1</button>
+    <button type="button" value="2">2</button>
+    <button type="button" value="3">3</button>
+    <button type="button" class="operator" value="+">+</button>
+        <button type="button" class="scientific" value="e">e</button>
+        <button type="button" class="scientific" value="tan">tan</button>
+        <button type="button" class="scientific" value="sqrt">√</button>
+
+    <button type="button" value="0">0</button>
+    <button type="button" class="decimal" value=".">.</button>
+    <button type="button" class="equal-sign operator" value="=">=</button>
+        <button type="button" class="scientific" value="Ans">Ans</button>
+        <button type="button" class="scientific" value="EXP">EXP</button>
+        <button type="button" class="scientific" value="x^y">xʸ</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
